@@ -6,9 +6,9 @@ def choose_level(n_pregunta, p_level):
     if n_pregunta <= p_level:
         level = "basicas"
     elif n_pregunta <= p_level*2:
-        level="Intermedio"
+        level="intermedias"
     else:
-        level="avanzado"
+        level="avanzadas"
 
     ##################################################
     return level

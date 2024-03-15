@@ -11,6 +11,7 @@ opciones = {'basicas': [1,2,3],
 
 def choose_q(dificultad):#basicas, intermedias, avanzadas
     #escoger preguntas por dificultad
+    print("dificultad",dificultad)
     preguntas = p.pool_preguntas[dificultad] #da de cualquiera de los 3 niveles
     # usar opciones desde ambiente global
     global opciones

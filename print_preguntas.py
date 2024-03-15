@@ -4,7 +4,7 @@ def print_pregunta(enunciado, alternativas):
     
     # Imprimir enunciado y alternativas
     ###############################################################
-    print(enunciado[0],"\n")
+    print(enunciado,"\n")
     opciones = {
         0:"A.",
         1:"B.",
@@ -14,7 +14,7 @@ def print_pregunta(enunciado, alternativas):
     for i,alternativa in enumerate(alternativas):
         print(opciones[i], alternativa[0])
         
-        print(alternativa[0])
+        # print(alternativa[0])
     
     #####################
     ##########################################
